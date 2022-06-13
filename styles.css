@@ -8,15 +8,18 @@
     width: auto;
     height: 100%;
 }
+    /*creating a container where implement parallax features*/
 .container {
     margin: 0 10%;
 }
+    /*for landing page*/
 .home{
     display: flex;
     align-items: center;
     justify-content:center;
     flex-wrap: wrap;
 }
+    /*divide  home in two parts*/
 .item1{
     width: 43%;
     height: 100vh;
@@ -47,6 +50,7 @@
     font-weight: 800;
     border-style: double;
 }
+    /*other part of home*/
 .item2{
     width: 57%;
     height: 100vh;
@@ -54,6 +58,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+    /*for our work*/
 li{
     list-style: none;
 }
@@ -63,12 +68,14 @@ li:not(:last-child){
     padding: 0 15px;
     text-align: center;
 }
+    /*for our work*/
 #ourWork{
     background-color: #404044;
     text-align: center;
     padding: 15px;
     color: aliceblue;
 }
+    /*background image set for particular div*/
 #image2{
     height: 500px;
     width: 100%;
@@ -78,9 +85,11 @@ li:not(:last-child){
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+    /*if hover over image it will zoom out*/
 #image2:hover{
     transform: scale(1.2);
 }
+    /*background image set for particular div*/
 #image3{
     height: 500px;
     width: 100%;
@@ -90,9 +99,11 @@ li:not(:last-child){
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+    /*if hover over image it will zoom out*/
 #image3:hover{
     transform: scale(1.2);
 }
+    /*background image set for particular div*/
 #image4{
     height: 600px;
     width: 100%;
@@ -102,9 +113,11 @@ li:not(:last-child){
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+    /*if hover over image it will zoom out*/
 #image4:hover{
     transform: scale(1.2);
 }
+    /*background image set for particular div*/
 #image5{
     height:500px;
     width: 100%;
@@ -114,9 +127,11 @@ li:not(:last-child){
     background-image: url(./image/image5.png);
     background-attachment: fixed;
 }
+    /*if hover over image it will zoom out*/
 #image5:hover{
     transform: scale(1.2);
 }
+    /*background image set for particular div*/
 #image6{
     height: 500px;
     width: 100%;
@@ -126,9 +141,11 @@ li:not(:last-child){
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+    /*if hover over image it will zoom out*/
 #image6:hover{
     transform: scale(1.2);
 }
+    /*give description for each image*/
 .description{
     width: 100%;
     margin-top: -4px;
@@ -147,6 +164,7 @@ li:not(:last-child){
     color: yellow;
     font-size: large;
 }
+    /* making footer element styles*/
 .footer{
     text-align: center;
     margin: 50px;
